@@ -1,2 +1,2 @@
-# AppControleFinanceiro 
- Site de controle financeiro
+# App Controle Financeiro 
+ Site de controle financeiro próprio.
