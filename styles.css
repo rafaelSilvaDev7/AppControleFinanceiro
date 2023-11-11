@@ -1,5 +1,48 @@
 
+/* geral */
 
-h1 {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
 }
+
+
+
+
+
+
+.container {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+header {
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+    
+footer {
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+aside {
+    background-color: yellow;
+    position: fixed;
+    top: 0; /* Ajuste conforme necessário */
+    right: 0;
+    bottom: 0;
+}
+
+
+
