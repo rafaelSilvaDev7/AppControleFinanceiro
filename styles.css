@@ -8,37 +8,46 @@
     box-sizing: border-box;
 }
 
-
 .container {
-    background-color: red;
     display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
-
-
-header {
-    background-color: blue;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
+    min-height: 100vh;
+    min-width: 100vh;
     
-footer {
-    background-color: green;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
-aside {
+
+.barradenav {
     background-color: yellow;
+    max-width: 100px;
     position: fixed;
     top: 0; /* Ajuste conforme necessário */
-    right: 0;
+    left: 0;
     bottom: 0;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
+.barradenav button {
+    margin: 10px 0;
+}
+
+main {
+    display: flex;
+    margin-left: 100px;
+    background-color: blue;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.info {
+    background-color: antiquewhite;
+   height: 80px;
+   width: 150px;
+   border: 1px solid #EFF;
+   border-radius: 15px;
+}
 
 
