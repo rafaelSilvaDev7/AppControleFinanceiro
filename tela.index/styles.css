@@ -12,6 +12,10 @@
     min-height: 100vh;
 }
 
+main {
+    margin-left: 100px;
+}
+
 .barradenav {
     background-color: yellow;
     max-width: 100px;
@@ -35,6 +39,7 @@ main {
     width: 100%;
     justify-content: space-around;
     padding-top: 10px;
+    margin-left: 100px;
 }
 
 .info {
@@ -65,7 +70,7 @@ main {
         margin-left: 0;
         max-width: 500px;
         max-height: 100px;
-        margin: 0 ;
+        margin: 0;
     }
 
     .info {
