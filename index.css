@@ -6,13 +6,19 @@
     box-sizing: border-box;
 }
 
+:root {
+    --cor-primaria: #007bff; 
+    --cor-secundaria: #1E90FF; 
+    --cor-terciária: #87CEFA;
+    --cor-quaternária: #1E90FF;
+  }
+  
 
 body {
-    background-color: red;
+    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100%;
 }
-
